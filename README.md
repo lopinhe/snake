@@ -1,5 +1,5 @@
 # snake
-I tested to compile a game built with the Go based EbitEngine using WebAssembly.
+I tested to compile a game built with the Go based EbitEngine using WebAssembly and to locally deploy it with a Go-server
 
 
 game source: https://pliutau.com/ebiten-snake/

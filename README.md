@@ -11,4 +11,4 @@ WebAssembly tutorial: https://golangbot.com/webassembly-using-go/
 - go to snake/webassembly/cmd/server
 - go run main.go
 - open adress http://localhost:8080/ in local browser
-- for compiling with WebAssembly after changing the Go-Program, simply run snake/webassembly/asstes/newWasm.c in your borwster
+- for compiling with WebAssembly after changing the Go-Program, execute newWasm.c in the assets directory

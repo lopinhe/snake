@@ -9,4 +9,4 @@ WebAssembly tutorial: https://golangbot.com/webassembly-using-go/
 - pull repository
 - go to snake/webassembly/cmd/server
 - go run main.go
-- open adress http://localhost:9090/ in local browser
+- open adress http://localhost:8080/ in local browser

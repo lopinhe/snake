@@ -8,13 +8,6 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 )
 
-const (
-	ScreenWidth  = 600
-	ScreenHeight = 600
-	boardRows    = 20
-	boardCols    = 20
-)
-
 var (
 	backgroundColor = color.RGBA{50, 100, 50, 50}
 	snakeColor      = color.RGBA{200, 50, 150, 150}
@@ -31,6 +24,10 @@ func NewGame() *Game {
 		input: NewInput(),
 		board: NewBoard(boardRows, boardCols),
 	}
+}
+
+func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
+	return ScreenWidth, ScreenHeight
 }
 
 func (g *Game) Update() error {
